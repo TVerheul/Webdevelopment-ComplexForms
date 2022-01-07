@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" type="text/css" href="styles.css">
+    <title>NLLD_Webdevelopment</title>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+        <h1> Staffordshire Bullteriër</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+        <ul>
+            <li><a href="index.html" title="Ga naar home pagina">Home</a></li>
+            <li><a href="about.html" title="Ga naar about pagina">About</a></li>
+            <li><a href="#" title="Ga naar service pagina">Services</a></li>
+            <li><a href="contact.html" title="Ga naar contact pagina">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <form action="POST" id="form-2" name="recipe" class="container" data-netlify="true">
+        <h2>Laat hier uw gegevens achter</h2>
+
+        <div>
+            <label for="fname">Jouw naam:</label>
+            <input type="text" name="fname" id="fname"/>
+        </div>
+        <div>
+            <label>Email adres:</label>
+            <input type="text" name="name"/>
+        </div>
+        <div>
+            <label>Telefoonnummer:</label>
+            <input type="tel" name="telnmbr" pattern="[0-9]{2}-[0-9]{8}"/>
+        </div>
+        <div>
+            <label>Leeftijd:</label>
+            <input type="number" name="age"/>
+        </div>
+        <div>
+            <label>Geboortedatum:</label>
+            <input type="date" name="birthdate"/>
+        </div>
+        <div>
+            <label>Geslacht:</label>
+            <input type="radio" name="man-vrouw"/>man
+            <input type="radio" name="man-vrouw"/>vrouw
+        </div>
+        <div>
+            <label>Favoriete keuken:</label>
+            <input type="checkbox" name="fcusine"/> Frans
+            <input type="checkbox" name="fcusine"/> Spaans
+            <input type="checkbox" name="fcusine"/> Arabisch
+        </div>
+        <div>
+            <label>Favoriete schortkleur:</label>
+            <input type="color" name="Fapron"/>
+        </div>
+        <div>
+            <label>Link naar je recpeten website:</label>
+            <input type="url"/>
+        </div>
+        <div>
+            <label>Type hier je biografie:</label>
+            <textarea name="bio" cols="100" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="reset" id="resetBTN"/>
+        </div>
+        <div>
+            <input type="submit" id="submitBTN"/>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <div class="container">
+        <a href="https://www.google.nl/webhp?hl=nl&ictx=2&sa=X&ved=0ahUKEwjFz5T6jYn1AhWYh_0HHVyhC_kQPQgI" title="Google.com" target="_blank"> Ga hier naar Google.com </a>
+    <p>Copyright &copy;2022 </p>
+        </div>
+    </footer>
+
+</body>
+</html>
